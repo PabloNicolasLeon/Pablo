@@ -1,0 +1,54 @@
+h1{text-transform: uppercase; /*mayuscula*/
+    text-align: center; /*alinecacion*/
+    
+    
+    }
+    h2{text-transform: uppercase; /*mayuscula*/
+        color:blue;
+        }
+        
+        
+        p{color:red;
+        }
+        .destacadoss{color:red;}
+
+
+
+        h3{text-transform: uppercase; /*mayuscula*/
+            color:blue;
+            }
+    
+            h4{text-transform: uppercase; /*mayuscula*/
+                color:blue;
+                }
+
+                h5{text-transform: uppercase; /*mayuscula*/
+                    color:blue;
+                    }
+                    
+                    
+                    p{color:white;
+                    }
+
+                    .destacados{
+                        color:green;
+                        font-weight: bold;
+                    }
+
+
+                    #celeste{
+                        background-color: cornflowerblue;
+                    
+                    }
+
+                    img{
+                        filter: sepia(100%);
+                    }
+
+                    img:hover{
+                        filter: sepia(0%);
+                    }
+
+
+
+
