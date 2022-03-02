@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+    </head>
+
+    <body>
+        <script>
+            var pie, bicicleta, colectivo, auto, avion;
+            
+            pie=prompt('0 a 1000 metros');
+            bicicleta=prompt('1000 a 10000');
+            colectivo=prompt('10000 a 30000');
+            auto=prompt('30000 a 100000');
+            avion=prompt('1000000');
+
+            pie=parseInt(pie);
+            bicicleta=parseInt(bicicleta);
+            colectivo=parseInt(colectivo);
+            auto=parseInt(auto);
+            avion=parseInt(avion);
+
+            if (pie<bicicleta && bicicleta<colectivo && colectivo<auto && auto<avion){
+                document.write('el medio de transporte mas apropiado es '+ avion);
+            }
+        </script>
+    </body>
+</html>
+
