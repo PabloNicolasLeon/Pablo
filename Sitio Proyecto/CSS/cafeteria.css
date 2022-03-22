@@ -1,0 +1,19 @@
+/*
+font-family: 'Dancing Script', cursive;
+*/
+
+footer{
+    background-color: brown;
+}
+
+h1, h2 {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.hero {
+    background: url(../img/CafeHero.jpg) no-repeat;
+    background-size: cover;
+    height: 0.5vh;
+    min-height: 600px;
+    color: white;
+}
